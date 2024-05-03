@@ -31,3 +31,46 @@ body {
     text-wrap: balance;
   }
 }
+
+
+ .menu-boxx {
+  /* background: #000 url("/poster-wo-bg.png") no-repeat; */
+  border: 1px solid #fff;
+  /* background-position: right bottom; */
+  /* background-size: 150px; */
+
+    /* height: 100%; */
+    border-radius: 20px;
+    padding: 20px 30px;
+
+}
+
+/*
+input[type='range'] {
+  overflow: hidden;
+  width: 80px;
+  -webkit-appearance: none;
+  background-color: #9a905d;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+} */
+
+input[type='range']::-webkit-slider-thumb {
+  width: 15px;
+  -webkit-appearance: none;
+  height: 15px;
+  cursor: ew-resize;
+  background: #685FCA;
+border-radius: 25px;
+  /* box-shadow: -80px 0 0 80px #43e5f7; */
+}
+
+
+
+/* particle JS */
+
